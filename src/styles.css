@@ -1,0 +1,63 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.filmborder {
+  width: 200px;
+  height: 350px;
+  margin: 20px;
+  position: relative;
+}
+.filmlist {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.serach {
+  margin: 50px 0 50px;
+  display: flex;
+  justify-content: center;
+}
+.imgfilm {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80%;
+}
+.filmrate {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 60%;
+  height: 10%;
+  background-color: rgba(14, 0, 209, 0.3);
+}
+.filmName {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.add {
+  position: relative;
+  top: 40%;
+  left: 35%;
+}
+.formnewmovie {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.formnewmovie input {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
