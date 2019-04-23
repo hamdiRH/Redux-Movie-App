@@ -7,14 +7,20 @@ import "../styles.css";
 class find extends React.Component {
   render() {
     return (
-      <input
-        className="mr-5 w-50"
-        type="text"
-        placeholder="type a movie name to search"
-        onChange={e => {
-          this.props.filterByName(e.target.value);
-        }}
-      />
+
+      <div class="search-block">
+        <input type="search"
+          placeholder="type a movie name "
+          onChange={e => {
+            this.props.filterByName(e.target.value);
+          }}></input>
+        <div class="icon"></div>
+      </div>
+
+
+
+
+
     );
   }
 }

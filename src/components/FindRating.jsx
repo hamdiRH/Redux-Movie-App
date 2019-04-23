@@ -39,7 +39,7 @@ class FindRating extends React.Component {
       }
     }
 
-    return <div>{starsRating}</div>;
+    return <div className="ml-5  mt-3">{starsRating}</div>;
   }
 }
 
