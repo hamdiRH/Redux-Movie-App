@@ -1,7 +1,10 @@
 import React from "react";
-import "../styles.css";
+
 import FindRating from "./FindRating";
 import Search from "./search";
+
+import "../styles.css";
+
 let find = () => {
   return (
     <div>

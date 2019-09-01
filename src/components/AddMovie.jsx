@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import Modal from "react-responsive-modal";
+
 import { addFilm } from "../actions/index";
 
 class NewMovie extends Component {

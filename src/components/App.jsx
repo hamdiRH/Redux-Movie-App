@@ -1,6 +1,8 @@
 import React, { Component } from "react";
+
 import Find from "./Find";
 import List from "./movielist";
+
 import "../styles.css";
 
 class App extends Component {

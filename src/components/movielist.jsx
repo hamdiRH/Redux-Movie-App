@@ -1,7 +1,6 @@
 import React from "react";
-import AddMovie from "./AddMovie";
 import { connect } from "react-redux";
-
+import AddMovie from "./AddMovie";
 import "../styles.css";
 
 const getVisibleMovies = (Films, Findbyname, Findbyrating) => {

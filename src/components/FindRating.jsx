@@ -8,7 +8,6 @@ class FindRating extends React.Component {
     this.state = {
       Findbyratings
     };
-    console.log("constr ctor");
   }
 
   render() {

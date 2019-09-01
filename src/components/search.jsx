@@ -1,7 +1,6 @@
 import React from "react";
-import { filterByName } from "../actions/index";
 import { connect } from "react-redux";
-
+import { filterByName } from "../actions/index";
 import "../styles.css";
 
 class find extends React.Component {
@@ -16,11 +15,6 @@ class find extends React.Component {
           }}></input>
         <div class="icon"></div>
       </div>
-
-
-
-
-
     );
   }
 }
